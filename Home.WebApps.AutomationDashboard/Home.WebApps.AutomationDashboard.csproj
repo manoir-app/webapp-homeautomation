@@ -1,0 +1,199 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\typings\angular-animate.d.ts" />
+    <Content Remove="wwwroot\typings\angular-component-router.d.ts" />
+    <Content Remove="wwwroot\typings\angular-cookies.d.ts" />
+    <Content Remove="wwwroot\typings\angular-mocks.d.ts" />
+    <Content Remove="wwwroot\typings\angular-resource.d.ts" />
+    <Content Remove="wwwroot\typings\angular-route.d.ts" />
+    <Content Remove="wwwroot\typings\angular-sanitize.d.ts" />
+    <Content Remove="wwwroot\typings\angular.d.ts" />
+    <Content Remove="wwwroot\typings\jquery.d.ts" />
+    <Content Remove="wwwroot\typings\manoirApp.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\AbortController.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\browser-index.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\DefaultHttpClient.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\DefaultReconnectPolicy.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\Errors.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\FetchHttpClient.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\HandshakeProtocol.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\HttpClient.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\HttpConnection.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\HubConnection.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\HubConnectionBuilder.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\IConnection.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\IHttpConnectionOptions.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\IHubProtocol.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\ILogger.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\index.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\IRetryPolicy.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\ITransport.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\JsonHubProtocol.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\Loggers.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\LongPollingTransport.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\Polyfills.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\ServerSentEventsTransport.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\Stream.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\Subject.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\TextMessageFormat.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\Utils.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\WebSocketTransport.d.ts" />
+    <Content Remove="wwwroot\typings\signalr\XhrHttpClient.d.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ManoirApp.Home.Common" Version="1.1.1" />
+    <PackageReference Include="ManoirApp.Home.Common.Graph" Version="1.1.1" />
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="4.5.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="wwwroot\typings\angular-animate.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\angular-component-router.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\angular-cookies.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\angular-mocks.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\angular-resource.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\angular-route.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\angular-sanitize.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\angular.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\jquery.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\manoirApp.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\AbortController.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\browser-index.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\DefaultHttpClient.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\DefaultReconnectPolicy.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\Errors.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\FetchHttpClient.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\HandshakeProtocol.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\HttpClient.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\HttpConnection.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\HubConnection.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\HubConnectionBuilder.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\IConnection.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\IHttpConnectionOptions.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\IHubProtocol.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\ILogger.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\index.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\IRetryPolicy.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\ITransport.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\JsonHubProtocol.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\Loggers.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\LongPollingTransport.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\Polyfills.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\ServerSentEventsTransport.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\Stream.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\Subject.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\TextMessageFormat.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\Utils.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\WebSocketTransport.d.ts" />
+    <TypeScriptCompile Include="wwwroot\typings\signalr\XhrHttpClient.d.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\index.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\angular-animate.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\angular-animate.min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\angular-animate.min.js.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\angular-mocks.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\angular-sanitize.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\angular-sanitize.min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\angular-sanitize.min.js.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\angular.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\angular.min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\angular.min.js.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\jquery-1.7.1.intellisense.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\jquery-1.7.1.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\jquery-1.7.1.min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\jquery-2.0.2.intellisense.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\jquery-2.0.2.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\jquery-2.0.2.min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\jquery-2.0.2.min.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\jquery-3.5.1.min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\jquery-mobile.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\jquery-ui-1.10.2.custom.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\jquery-ui-1.10.2.custom.min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\jquery.filedrop.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\jquery.history.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\jquery.quickflip.min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\jquery.tablesorter.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\jquery.XDomainRequest.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\select2.min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\scripts\ui-select2.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\AutomationApp.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="build-docker.ps1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

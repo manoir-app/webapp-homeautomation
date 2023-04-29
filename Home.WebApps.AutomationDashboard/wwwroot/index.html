@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="scripts/jquery-3.5.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="main.css" rel="stylesheet" />
+
+    <style>
+        body, p, div, table, td, h1, h2, h3, h4, h5, h6 {
+            font-family: 'Raleway', sans-serif;
+            padding:0;margin:0;
+        }
+    </style>
+
+    <script type="text/javascript">
+
+        function refreshHorloge() {
+            var today = new Date();
+            var hour = '0' + today.getHours().toString();
+            var min = '0' + today.getMinutes().toString();
+            var time = hour.substr(hour.length - 2) + ":" + min.substr(min.length - 2);
+            $("#spanHour").text(time);
+        }
+
+        $(document).ready(function (e) {
+
+            setInterval(refreshHorloge, 200);
+            refreshHorloge();
+
+        });
+    </script>
+</head>
+<body>
+    <main>
+
+        <header>
+            <span id="spanHour"></span>
+        </header>
+
+        <div class="content">
+            <div class="page" id="pageNoUser">
+
+            </div>
+            <div class="page" id="pageMain">
+
+                <section id="divMainScenario">
+                </section>
+
+                <section id="divRooms">
+
+
+                    <div id="divRoomsScenarios">
+
+
+                        <div id="divRoomsMore">
+                            <button>Accèder aux devices</button>
+                        </div>
+                    </div>
+
+                    <nav id="navRooms">
+                        <ul>
+                        </ul>
+                    </nav>
+                </section>
+
+                <footer>
+                </footer>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>

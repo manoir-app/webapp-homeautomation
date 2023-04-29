@@ -1,0 +1,6 @@
+{
+  "Kind": "WebApps",
+  "Name": "Home Automation Dashboard",
+  "ImageName": "webapps-homeautomation",
+  "DockerFile": "DockerFile.Release"
+}
